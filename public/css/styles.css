@@ -1,1 +1,68 @@
-/*CSS Rules*/
+.container{
+  justify-content: center;
+}
+
+.main{
+    display: flex;
+}
+
+
+h1{
+    color: #464648;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+
+    
+}
+
+
+div{
+    margin:  8px;
+    padding: 4px;
+}
+
+h3{
+    font-family: courier;
+   
+}
+
+
+.right-img{
+  width:320px;
+    height: 10px;
+     display: inline-block;
+     
+   
+   
+}
+
+.floatleft{
+    margin:20px;
+    background-color: #F7F7F7;
+    width: 35%;
+   
+}
+
+
+.floatright{
+     margin:20px;
+    background-color: #F7F7F7;
+    
+}
+
+
+.vertical{
+    float: right;
+border-left: 1px solid gray;
+
+}
+
+footer{
+  display:flex;
+      justify-content:space-around;
+}
